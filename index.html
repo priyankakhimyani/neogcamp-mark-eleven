@@ -14,6 +14,9 @@
     <!-- font-awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
+    <!-- font-awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
 </head>
 <body>
     <div>
@@ -23,10 +26,19 @@
             <input class="fields" id="date-of-birth" type="date" type="hidden" >
             <label class="label" for="lucky-number">Your lucky number:</label>
             <input class="fields" id="lucky-number" type="number" min=1 oninput="validity.valid||(value='');">
+            <div class="note">NOTE: We donot store or share user's data.</div>
             <button id="check-number">Check</button>
             <div id="message" disabled></div>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="footer-header">Find me here</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="links" href="https://www.linkedin.com/in/priyankakhimyani/"><i class="fab fa-linkedin social"></i></a></li>
+            <li class="list-item-inline"><a class="links" href="https://github.com/priyankakhimyani"><i class="fab fa-github social"></i></a></li>
+        </ul>
+    </footer>
 
 <script src="apps.js"></script>
 </body>
